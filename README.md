@@ -1,2 +1,15 @@
-# yourfirstgoproject
-Your First Go Project
+# Your First Go Project
+
+## RESTful API для работы с контактами
+- Создать самый простой вебсервер (роут `/health`)
+- Создать Dockerfile для приложения
+- Добавить конфигурацию
+- Реализовать логинг
+- Реализовать поддержку JSON (Restful API)
+- Реализовать подключение к Postgres
+- Добавить возмодность запускать все в Docker Compose
+- Реализовать CRUD для модели User {id, name}
+- Реализовать CRUD для модел Contacts {id, user_id, type, contact}
+- Реализовать клиент для работы с API (тесты обязательны)
+- Написать пример работы с API используя клиент
+- Разделить сервис на два: Restful (FE) и gRPC обертка для базы
